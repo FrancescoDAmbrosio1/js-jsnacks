@@ -44,3 +44,15 @@
 
 
 //                          JSNACK 3
+//l software deve chiedere per 10 volte all’utente di inserire un numero.
+// Il programma stampa la somma di tutti i numeri inseriti.
+//      PROCEDIMENTO JSNACK3
+//inizializzo una somma=0
+//chiedo per 10 volte di inserire un numero e lo sommo alla somma precedente
+let somma = 0;  //number
+for(let i = 0; i < 10; i++){
+    let num = parseInt(prompt('Inserisci il '+ (i+1) + '° numero'))
+    somma = somma + num;    //number
+}
+console.log('La somma dei numeri da te inseriti è: ', somma );
+//stampo all'utente il risultato
